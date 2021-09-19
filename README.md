@@ -1,6 +1,6 @@
 # RayChat Package For React
 
-![raychat](https://blog.raychat.io/wp-content/themes/appraychat/images/raychat-logo.svg)
+![raychat](./public/raychat-logo.svg)
 
 > Get `token` from [raychat.io](https://raychat.io/signup)
 
