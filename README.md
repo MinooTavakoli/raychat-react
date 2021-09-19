@@ -1,5 +1,7 @@
 # RayChat Package For React
 
+![raychat](https://blog.raychat.io/wp-content/themes/appraychat/images/raychat-logo.svg)
+
 > Get `token` from [raychat.io](https://raychat.io/signup)
 
 ## USE Raychat Package
@@ -13,6 +15,7 @@ function App(){
 
     return (
         <div>
+            <h1>This is a test</h1>
             <RayChat
                 rayToken={token}
             />
