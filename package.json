@@ -1,10 +1,13 @@
 {
   "name": "raychat-react",
-  "version": "1.0.3",
-  "description": "raychat react js package :) ",
+  "version": "1.0.4",
+  "description": "raychat react js package .The new online chat experience begins here! ",
   "keywords": [
     "raychat",
-    "react"
+    "react",
+    "raychat.io",
+    "چت آنلاین",
+    "رایچت"
   ],
   "author": "minoo tavakoli <minootavakoli28@gmail.com>",
   "license": "MIT",
@@ -16,7 +19,11 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "index.d.ts",
-  "files": [ "dist", "README.md", "index.d.ts" ],
+  "files": [
+    "dist",
+    "README.md",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
