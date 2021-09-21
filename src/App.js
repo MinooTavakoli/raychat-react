@@ -2,7 +2,7 @@ import RayChat from './lib/components/RayChat';
 import './App.css';
 
 function App() {
-  const rayToken = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
+  const rayToken = "6d5b4ba5-e2de-4fc9-b6de-48498f3fc2a2";
   return (
     <div style={{ display:'flex', 
               flexDirection:'column', 
