@@ -18,29 +18,26 @@ You spend a lot of time and money to direct users to your site, but you easily l
 
 > Get `token` from [raychat.io](https://raychat.io/signup)
 
-```
+```bash
 npm i raychat-react
 ```
 
 ## USE Raychat Package
 
-```
-import React from 'react';
+```js
+import React from "react";
 import RayChat from "raychat-react";
 
-function App(){
-    const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
+function App() {
+  const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
 
-    return (
-        <div>
-            <h1>This is a test</h1>
-            <RayChat
-                rayToken={token}
-            />
-        </div>
-    );
+  return (
+    <div>
+      <h1>This is a test</h1>
+      <RayChat rayToken={token} />
+    </div>
+  );
 }
-
 ```
 
 ## Props
