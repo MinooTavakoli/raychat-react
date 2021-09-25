@@ -13,7 +13,7 @@ const removeElTag = (selector) => {
   }
 };
 
-function RayChat({ rayToken = null }) {
+function RayChat({ rayToken = null , domain=undefined}) {
   const ref = useRef();
   const raychat = () => {
     let o = rayToken;
@@ -27,12 +27,12 @@ function RayChat({ rayToken = null }) {
           "?rid=" +
           localStorage.getItem("rayToken") +
           "&href=" +
-          window.location.href)
+          (domain || window.location.href))
       : (t.src =
           "https://app.raychat.io/scripts/js/" +
           o +
           "?href=" +
-          window.location.href);
+          (domain || window.location.href));
     if (ref && ref.current) {
       ref.current.appendChild(t);
     }
