@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 const removeElId = (id) => {
   if (id) {
     let elem = document.getElementById(id);
-    elem.parentNode.removeChild(elem);
+    elem?.parentNode?.removeChild(elem);
   }
 };
 
